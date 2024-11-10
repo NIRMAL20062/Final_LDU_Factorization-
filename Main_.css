@@ -235,3 +235,8 @@ button {
 button:hover {
     background: linear-gradient(rgb(147, 139, 139), red);
 }
+
+section a{
+  text-decoration: none;
+  color: black;
+}

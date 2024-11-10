@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagonal Matrix</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            margin: 20px;
+            border-collapse: collapse;
+            width: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        td {
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        .cell {
+            background-color: #f9f9f9;
+        }
+
+        .cell:not(.empty) {
+            background-color: #d9f9d9;
+        }
+
+        .empty {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Diagonal Matrix (4x4)</h1>
+        <table class="matrix">
+            <tr>
+                <td class="cell">1</td>
+                <td class="cell empty">0</td>
+                <td class="cell empty">0</td>
+                <td class="cell empty">0</td>
+            </tr>
+            <tr>
+                <td class="cell empty">0</td>
+                <td class="cell">2</td>
+                <td class="cell empty">0</td>
+                <td class="cell empty">0</td>
+            </tr>
+            <tr>
+                <td class="cell empty">0</td>
+                <td class="cell empty">0</td>
+                <td class="cell">3</td>
+                <td class="cell empty">0</td>
+            </tr>
+            <tr>
+                <td class="cell empty">0</td>
+                <td class="cell empty">0</td>
+                <td class="cell empty">0</td>
+                <td class="cell">4</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+

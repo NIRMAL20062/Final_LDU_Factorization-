@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upper Triangular Matrix</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        .cell {
+            background-color: #f9f9f9;
+        }
+
+        .cell:not(:empty) {
+            background-color: #d9f9d9;
+
+        }
+
+        td:empty {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upper Triangular Matrix (4x4)</h1>
+    <table class="matrix">
+        <tr>
+            <td class="cell">1</td>
+            <td class="cell">2</td>
+            <td class="cell">3</td>
+            <td class="cell">4</td>
+        </tr>
+        <tr>
+            <td class="cell">0</td>
+            <td class="cell">5</td>
+            <td class="cell">6</td>
+            <td class="cell">7</td>
+        </tr>
+        <tr>
+            <td class="cell">0</td>
+            <td class="cell">0</td>
+            <td class="cell">8</td>
+            <td class="cell">9</td>
+        </tr>
+        <tr>
+            <td class="cell">0</td>
+            <td class="cell">0</td>
+            <td class="cell">0</td>
+            <td class="cell">10</td>
+        </tr>
+    </table>
+</body>
+</html>
